@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.team-name{
+    font-family: 'Verdana', sans-serif;
+    color: #EEEEEE;
+    font-size: 4em;
+    font-weight: 800;
+    margin-top: 110px;
+    margin-bottom: 30px;
+}
+
+
+.score{
+    font-size: 10em;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    background-color: #080001;
+    color: #F94F6D;
+    border-radius: 10px;
+    width: 14.8vw;
+    height: 30vh;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-top: 50px;
+}
+
+button{
+    color: #9AABD8;
+    background-color: transparent;
+    border: #9AABD8 solid 1px;
+    height: 6vh;
+    width: 4vw;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-right: 15px;
+    transition: all 0.35s ease-in-out;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #9AABD8;
+    color: #1B244A;
+}
